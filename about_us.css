@@ -1,0 +1,113 @@
+@media (min-width:1050px) {
+    html body {
+        font: 400;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        line-height: 1.6em;
+    }
+}
+
+@media (max-width:750px) {
+    html body {
+        font: 400;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        line-height: 1.0em;
+    }
+}
+
+#navbar1 {
+    background-color: #333!important;
+}
+
+.navbar-nav .nav-link,
+.navbar-brand {
+    color: white !important;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: center;
+}
+
+.container-1 {
+    position: sticky;
+    background-image: url(images/water.jfif);
+    height: auto;
+    max-width: 1550px;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (min-width:1050px) {
+    .container-1 {
+        position: sticky;
+        background-image: url(images/water.jfif);
+        height: 100vh;
+        max-width: 1550px;
+        margin: 0;
+        padding: 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+main {
+    padding: 2rem;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 1rem;
+}
+
+
+/*footer */
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer .form-control {
+    border: none;
+    border-radius: 0;
+}
+
+.footer .btn-primary {
+    border-radius: 0;
+}
+
+.footer .footer-logo img {
+    max-width: 100px;
+}
+
+.footer .footer-logo h2 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.footer .footer-logo p {
+    font-size: 0.9rem;
+}
