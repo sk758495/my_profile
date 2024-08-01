@@ -46,12 +46,10 @@
         position: sticky;
         background-image: url(images/water.jfif);
         height: auto;
-        max-width: auto;
         margin: 0;
         padding: 0;
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center;
     }
     
     @media (min-width:1050px) {
