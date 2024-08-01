@@ -49,7 +49,6 @@
            position: sticky;
            background-image: url(images/portfolio.jpg);
            height: 100vh;
-           max-width: 1550px;
            margin: 0;
            padding: 0;
            background-repeat: no-repeat;
@@ -271,8 +270,9 @@
            width: 80%;
            margin: 0 auto;
            background-color: #fff;
-           padding: 20px;
+           padding: 20px 20px;
            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+           margin-bottom: 10px;
        }
        
        header {
