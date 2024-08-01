@@ -38,7 +38,6 @@
     position: sticky;
     background-image: url(images/water.jfif);
     height: auto;
-    max-width: 1550px;
     margin: 0;
     padding: 0;
     background-repeat: no-repeat;
@@ -51,7 +50,6 @@
         position: sticky;
         background-image: url(images/water.jfif);
         height: 100vh;
-        max-width: 1550px;
         margin: 0;
         padding: 0;
         background-repeat: no-repeat;
